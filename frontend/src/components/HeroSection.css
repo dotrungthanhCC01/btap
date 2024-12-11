@@ -1,0 +1,41 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 231px;
+    background-color: #eee8fe;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .hero-btn {
+    padding: 15px 30px;
+    background-color: #5e5ce6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+    height: auto;
+    border: 5px solid #5e5ce6; /* Viền màu tím */
+    border-radius: 15px; /* Bo tròn góc viền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+}
+  
